@@ -1,0 +1,7 @@
+{
+  "name": "Image Sample",
+  "id": "748662055179664204",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html"
+}

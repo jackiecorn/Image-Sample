@@ -1,0 +1,11 @@
+<img id="image" />
+
+<script>
+	window.onmessage = event => {
+		const { image, width, height } = event.data.pluginMessage;
+		const img = document.getElementById('image');
+		img.src = URL.createObjectURL(new Blob([image], { type: 'image/png' }));
+		img.width = width;
+		img.height = height;
+	};
+</script>
